@@ -25,7 +25,7 @@ import Shop from "./pages/Shop";
 import { useEffect } from "react";
 import { setSocket } from "./redux/userSlice";
 import { io } from "socket.io-client";
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://food-delivery-oqws.onrender.com";
 const App = () => {
   const dispatch = useDispatch();
   const { userData } = useSelector((state) => state.user);
