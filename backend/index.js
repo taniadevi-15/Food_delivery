@@ -17,12 +17,12 @@ const app = express();
 const server = http.createServer(app)
 
 app.use(cors({
-  origin: "http://localhost:5173", // your Vite frontend
+  origin: "https://food-delivery-15.onrender.com", // your Vite frontend
   credentials: true,
 }));
 const io = new Server(server,{
     cors:{
-    origin: "http://localhost:5173",
+    origin: "https://food-delivery-15.onrender.com",
     credentials:true,
     methods:['POST','GET','PUT']
 }
