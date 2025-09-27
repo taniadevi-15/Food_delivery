@@ -66,7 +66,7 @@ const App = () => {
       />
       <Route
         path="/"
-        element={userData ? <Home /> : <Navigate to={"/signin"} />}
+        element={userData ? <Home /> : <Navigate to={"/signup"} />}
       />
       <Route
         path="/create-edit-shop"
