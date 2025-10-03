@@ -122,7 +122,7 @@ const DeliveryBoy = () => {
       setMessage(result.data.message)
       console.log(result.data);
       location.reload()
-      // await getCurrentOrder();
+      
     } catch (error) {
       console.log(error);
     }
