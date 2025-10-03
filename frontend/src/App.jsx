@@ -58,7 +58,8 @@ const App = () => {
       />
       <Route
         path="/signin"
-        element={!userData ? <SignIn /> : <Navigate to={"/"} />}
+        element={!userData ? <SignIn /> : <Navigate to={"/"} />
+    }
       />
       <Route
         path="/signin/forget-password"
